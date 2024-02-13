@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#board .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    margin-bottom: 10px;
+}
+
+stats {
+    margin-top: 20px;
+}
